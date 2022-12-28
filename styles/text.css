@@ -1,0 +1,23 @@
+p {
+  font-size: 22px;
+  padding: 16px 22px;
+  background: rgb(229, 133, 213);
+  border-radius: 5px;
+}
+p::first-line {
+  font-weight: 600;
+}
+ul,
+ol {
+  font-size: 22px;
+}
+@media (max-width: 440px) {
+  p {
+    font-size: 20px;
+    margin: 10px 15px 5px 15px;
+  }
+  ul,
+  ol {
+    font-size: 20px;
+  }
+}

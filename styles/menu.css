@@ -1,0 +1,43 @@
+.menu {
+  margin: 30px auto;
+  width: 80%;
+  text-align: center;
+}
+.menu tr {
+  background: none !important;
+}
+.menu tr td {
+  border: none !important;
+}
+.menu tr td a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 16px 25px;
+  border-radius: 4px;
+  background: rgb(180, 155, 255);
+  cursor: pointer;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+s .menu tr td a:focus {
+  background: rgb(145, 113, 241);
+}
+.menu tr td a:focus {
+  background: rgb(145, 113, 241);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+@media (max-width: 440px) {
+  .menu tr td a {
+    padding: 10px 5px;
+    margin: 5px;
+  }
+}

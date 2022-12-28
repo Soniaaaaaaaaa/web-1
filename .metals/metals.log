@@ -1,0 +1,6 @@
+2022.12.28 16:29:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\admin\Desktop\web-1\.metals\lsp.trace.json or C:\Users\admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.28 16:29:45 INFO  logging to file C:\Users\admin\Desktop\web-1\.metals\metals.log
+2022.12.28 16:29:45 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\admin\Desktop\web-1' for client Visual Studio Code 1.74.2.
+2022.12.28 16:29:46 INFO  time: initialize in 1.48s
+2022.12.28 16:29:48 WARN  Build server is not auto-connectable.
+2022.12.28 16:29:48 WARN  no build tool detected in workspace 'C:\Users\admin\Desktop\web-1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

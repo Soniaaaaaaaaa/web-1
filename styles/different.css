@@ -1,0 +1,141 @@
+.form {
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+}
+textarea {
+  margin-left: 30px;
+}
+.form-btn {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+video {
+  display: block;
+  margin: 10px auto;
+}
+a[href^="http"] {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+#showText:hover {
+  cursor: pointer;
+}
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+#error1,
+#error2 {
+  color: rgb(63, 15, 21);
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.formCont {
+  display: flex;
+  justify-content: start;
+  justify-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  margin-left: 25px;
+}
+#checkEmail,
+#checkNumber {
+  padding: 8px;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+@media (max-width: 440px) {
+  video {
+    width: 300px;
+    height: 200px;
+  }
+  a[href^="http"] {
+    font-size: 20px;
+  }
+  textarea {
+    max-width: 300px;
+  }
+}
+footer p {
+  background: rgb(127, 199, 241);
+  text-align: center;
+  font-size: 22px;
+  margin-top: 20px;
+}
+details {
+  margin-left: 10px;
+}
+summary {
+  font-size: 22px;
+}
+.clock {
+  display: none;
+}
+.gingerbread .body {
+  fill: #cd803d;
+}
+
+.gingerbread .eye {
+  fill: white;
+}
+
+.gingerbread .mouth {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+}
+
+.gingerbread .limb {
+  stroke: #cd803d;
+  stroke-width: 35px;
+  stroke-linecap: round;
+}
+.house {
+  stroke: black;
+  stroke-width: 2px;
+  fill: white;
+}
+
+.house .roof {
+  fill: none;
+  stroke: #d1495b;
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+.house .door {
+  fill: #d1495b;
+  rx: 2px;
+}
+
+.house .stair {
+  fill: gray;
+}
+
+.house .window {
+  fill: #fdea96;
+  rx: 5px;
+}
+
+.house .window-sill {
+  fill: #d1495b;
+  stroke-linecap: round;
+  rx: 5px;
+}
+.res {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

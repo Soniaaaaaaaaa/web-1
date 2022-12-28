@@ -1,0 +1,20 @@
+body.fade {
+  opacity: 1;
+}
+
+.hide {
+  display: block;
+}
+
+#showText:hover {
+  cursor: auto;
+  text-decoration: none;
+}
+.slideshow-container {
+  position: static;
+}
+.prev,
+.next {
+  cursor: auto;
+  display: none;
+}
